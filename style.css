@@ -1,1 +1,11 @@
+ /* Gömmer de två div-elemeten när man laddar sidan från */
+ #felinlogg,
+ #inloggad {
+     display: none;
+ } 
 
+ body {background-color: rgb(199, 164, 164);
+        text-align: center;
+        margin-top: 100px;
+        
+}

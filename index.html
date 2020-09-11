@@ -1,1 +1,29 @@
+<title>Logga in</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Formulär för att logga in -->
+<form name="form" id="myform">   
+    
+    
+    <label for="username">Användarnamn:</label><br>
+    <input type= "text"id="username" name= "forms"> <br>
+    <label for="password">Lösenord:</label> <br>
+    <input type="text" id="password" name="forms"> <br> <br>
+    <input id="submitForm" type="submit" value="Logga in">
 
+</form>
+<!-- Div för elementet inloggad, visar att man är inloggad och en knapp för att logga ut -->
+<div id="inloggad">
+    <h2>Välkommen till din sida!</h2>
+    <input id="signOut" type="submit" value= "Logga ut">
+</div>
+<!-- Div för elementet fel inlogg, visar att det var fel inloggningsuppgifter och en knapp för att logga in igen -->
+<div id="felinlogg" >
+    <h2>Fel användarnamn eller lösenord. Försök igen!</h2>
+    <input id="wrongLogin" type="submit" value="Logga in igen">
+</div>
+
+<script src="script.js" type="text/javascript"></script>
+</body>
+</html>
